@@ -1,0 +1,146 @@
+WCCILpmon    (1), 2024.08.27 14:54:14.784, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.27 14:54:17.823, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.27 14:54:17.888, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILpmon    (1), 2024.08.27 14:54:19.121, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.27 14:54:19.295, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.27 14:54:19.567, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.27 14:54:19.938, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.27 14:54:20.208, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.27 14:54:20.471, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.27 14:54:23.664, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILpmon    (1), 2024.08.27 14:54:24.023, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.27 14:54:35.873, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCILpmon    (1), 2024.08.27 14:54:36.126, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.27 14:54:36.475, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCILpmon    (1), 2024.08.27 14:54:36.782, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa
+WCCILpmon    (1), 2024.08.27 14:54:48.973, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.27 14:57:24.694, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.27 14:57:24.695, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.695, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.696, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.696, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.697, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.697, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.697, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.699, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.699, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:24.700, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:28.855, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:29.073, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:31.083, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 14:57:31.300, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.27 14:57:32.602, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.27 14:57:32.661, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILpmon    (1), 2024.08.27 14:57:33.881, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.27 14:57:34.150, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.27 14:57:34.404, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.27 14:57:34.672, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.27 14:57:34.934, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.27 14:57:35.209, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.27 14:57:38.351, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILpmon    (1), 2024.08.27 14:57:38.719, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.27 14:57:50.507, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCILpmon    (1), 2024.08.27 14:57:50.770, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.27 14:57:51.013, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCILpmon    (1), 2024.08.27 14:57:51.341, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa
+WCCILpmon    (1), 2024.08.27 14:57:56.979, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.27 15:11:50.909, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #1
+WCCILpmon    (1), 2024.08.27 15:11:50.971, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.27 15:11:52.062, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2024.08.27 15:11:52.093, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.27 15:11:53.068, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #2
+WCCILpmon    (1), 2024.08.27 15:11:53.094, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.27 15:17:12.599, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.27 15:17:15.216, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.27 15:17:15.472, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILpmon    (1), 2024.08.27 15:17:44.477, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.27 15:17:44.934, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.27 15:17:45.172, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.27 15:17:45.403, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.27 15:17:45.684, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.27 15:17:45.920, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.27 15:17:49.354, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILpmon    (1), 2024.08.27 15:17:49.984, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.27 15:18:01.823, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCILpmon    (1), 2024.08.27 15:18:02.078, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.27 15:18:02.302, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCILpmon    (1), 2024.08.27 15:18:02.542, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa
+WCCILpmon    (1), 2024.08.27 15:18:10.316, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.27 15:25:25.181, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:25:28.726, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:25:28.727, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:25:35.387, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:25:35.406, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config
+WCCILpmon    (1), 2024.08.27 15:26:51.395, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:26:55.354, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:26:55.354, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:27:06.813, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:27:06.835, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config -lang en_US.utf8
+WCCILpmon    (1), 2024.08.27 15:29:46.676, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.27 15:29:46.676, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.677, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.677, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.677, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.678, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.678, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:50.752, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:50.861, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:52.888, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:53.213, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.27 15:29:53.214, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:53.323, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.27 15:29:53.323, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 08:45:30.897, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.28 08:45:38.929, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.28 08:45:38.950, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILpmon    (1), 2024.08.28 08:45:40.183, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.28 08:45:40.413, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.28 08:45:40.652, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.28 08:45:40.883, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.28 08:45:41.119, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.28 08:45:41.338, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.28 08:45:44.458, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILpmon    (1), 2024.08.28 08:45:44.805, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.28 08:45:56.592, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCILpmon    (1), 2024.08.28 08:45:56.843, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.28 08:45:57.072, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCILpmon    (1), 2024.08.28 08:45:57.306, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config -lang en_US.utf8
+WCCILpmon    (1), 2024.08.28 08:46:05.703, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2024.08.28 11:45:29.769, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.28 11:45:29.770, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.770, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.771, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.771, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.771, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.774, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:33.921, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:34.028, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:36.057, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:36.815, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.28 11:45:40.557, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.28 11:45:40.558, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.28 11:45:40.558, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 11:45:59.012, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.28 11:46:02.745, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.28 11:46:02.766, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILpmon    (1), 2024.08.28 11:46:03.966, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCILpmon    (1), 2024.08.28 11:46:04.203, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCILpmon    (1), 2024.08.28 11:46:04.432, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCILpmon    (1), 2024.08.28 11:46:04.665, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCILpmon    (1), 2024.08.28 11:46:04.899, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCILpmon    (1), 2024.08.28 11:46:05.137, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCILpmon    (1), 2024.08.28 11:46:08.361, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILpmon    (1), 2024.08.28 11:46:08.814, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.28 11:46:20.617, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCILpmon    (1), 2024.08.28 11:46:20.873, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.28 11:46:21.116, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCILpmon    (1), 2024.08.28 11:46:21.347, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config -lang en_US.utf8
+WCCILpmon    (1), 2024.08.28 11:46:30.408, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode

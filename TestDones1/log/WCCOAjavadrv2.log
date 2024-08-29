@@ -1,0 +1,448 @@
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...1100000028060DE4400
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.27 14:55:04.519: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 14:55:04.519: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 14:55:04.519: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 14:55:04.519: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...110000001A78F7C4A70
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.27 14:58:17.220: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 14:58:17.220: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 14:58:17.221: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 14:58:17.221: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...1100000025D24CE8250
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.27 15:07:21.798: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:07:21.798: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:07:21.798: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:07:21.798: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...110000001A608CAABC0
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.27 15:07:43.195: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:07:43.195: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:07:43.195: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:07:43.195: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...110000002050BFCBF10
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.27 15:18:21.391: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:18:21.391: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:18:21.391: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:18:21.391: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...11000000242004FFDA0
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.27 15:27:26.867: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:27:26.867: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:27:26.867: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.27 15:27:26.867: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...1100000027508CDCB10
+Bool: 1 , array size: 104
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.28 08:46:17.981: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:46:17.981: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:46:17.981: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:46:17.981: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...110000001637F7C1850
+Bool: 1 , array size: 104
+Matching Lang: 0000016328AAF0C0
+Matching Lang: 0000016328AAF090
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.28 08:49:20.148: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:49:20.149: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:49:20.149: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:49:20.149: exit(1) called!
+Test...2
+Test...3
+Test...4
+Test...6
+Test...8
+Test...10
+default: -Duser.dir=C:\WinCC_OA_Proj\TestDones1\
+default: -Djava.library.path=C:\WinCC_OA_Proj\TestDones1\bin\;C:\Siemens\Automation\WinCC_OA\3.19\bin\
+default: -Djava.class.path=bin
+argument: -Djava.class.path=bin;.\bin\winccoa-epics-0.1.jar
+JVM load succeeded: Version 1.8
+Debug: 1
+Debug: 2
+Debug: 3
+Debug: 4
+Debug: 5
+Debug: 6
+Debug: 7
+Debug: 8
+Debug: 8.1
+Debug: 8.2
+Debug: 8.3
+Debug: 9
+Debug: 10
+class Main will be used (no parameter -class given)
+Debug: 11
+Debug: 12
+Debug: 13
+Java Driver...
+ARGC: 10
+ARGV[0]: -exe
+ARGV[1]: C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAjavadrv.exe
+ARGV[2]: -cp
+ARGV[3]: .\bin\winccoa-epics-0.1.jar
+ARGV[4]: -proj
+ARGV[5]: TestDones1
+ARGV[6]: -path
+ARGV[7]: C:\WinCC_OA_Proj\TestDones1\
+ARGV[8]: -num
+ARGV[9]: 2
+InitResources...2
+InitResources...1
+Test...11000000138EA14D500
+Bool: 1 , array size: 104
+Matching Lang: 0000013892C7FD60
+Matching Lang: 0000013892C80030
+Test...2
+Test...3
+WCCOAjavadrv (2), 2024.08.28 08:53:50.114: active language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:53:50.114: param language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:53:50.115: meta language "en_US.utf8" not found in langs
+WCCOAjavadrv (2), 2024.08.28 08:53:50.115: exit(1) called!

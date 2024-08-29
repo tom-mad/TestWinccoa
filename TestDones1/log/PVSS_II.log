@@ -1,0 +1,1376 @@
+WCCILpmon    (1), 2024.08.27 14:54:14.784, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.27 14:54:17.823, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.27 14:54:17.888, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILdata    (0), 2024.08.27 14:54:17.948, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdata    (0), 2024.08.27 14:54:17.952, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2024.08.27 14:54:18.945, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.27 14:54:18.946, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.27 14:54:18.946, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 14:54:18.964, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2024.08.27 14:54:18.983, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2024.08.27 14:54:18.983, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2024.08.27 14:54:18.984, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2024.08.27 14:54:18.984, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2024.08.27 14:54:18.985, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:18.997, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2024.08.27 14:54:18.998, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2024.08.27 14:54:19.121, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2024.08.27 14:54:19.183, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (0), 2024.08.27 14:54:19.187, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2024.08.27 14:54:19.190, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:19.252, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2024.08.27 14:54:19.266, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:54:19.295, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2024.08.27 14:54:19.353, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (1), 2024.08.27 14:54:19.357, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2024.08.27 14:54:19.359, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:19.412, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2024.08.27 14:54:19.413, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:54:19.567, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2024.08.27 14:54:19.730, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (2), 2024.08.27 14:54:19.734, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2024.08.27 14:54:19.736, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:19.798, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2024.08.27 14:54:19.799, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:54:19.938, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2024.08.27 14:54:19.997, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (3), 2024.08.27 14:54:20.001, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2024.08.27 14:54:20.004, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:20.065, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2024.08.27 14:54:20.072, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCOAvalarch (0), 2024.08.27 14:54:20.195, SYS,  INFO,        0, , Archive-directory was not present - will be created
+WCCILpmon    (1), 2024.08.27 14:54:20.208, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2024.08.27 14:54:20.266, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (4), 2024.08.27 14:54:20.269, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2024.08.27 14:54:20.273, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:20.334, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2024.08.27 14:54:20.335, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCOAvalarch (1), 2024.08.27 14:54:20.364, SYS,  INFO,        0, , Archive-directory was not present - will be created
+WCCILpmon    (1), 2024.08.27 14:54:20.471, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2024.08.27 14:54:20.526, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (5), 2024.08.27 14:54:20.530, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2024.08.27 14:54:20.533, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:20.583, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2024.08.27 14:54:20.600, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (2), 2024.08.27 14:54:20.742, SYS,  INFO,        0, , Archive-directory was not present - will be created
+WCCOAvalarch (3), 2024.08.27 14:54:21.008, SYS,  INFO,        0, , Archive-directory was not present - will be created
+WCCOAvalarch (4), 2024.08.27 14:54:21.273, SYS,  INFO,        0, , Archive-directory was not present - will be created
+WCCOAvalarch (5), 2024.08.27 14:54:21.538, SYS,  INFO,        0, , Archive-directory was not present - will be created
+WCCOAvalarch (0), 2024.08.27 14:54:22.252, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:22.284, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.27 14:54:22.421, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:22.452, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2024.08.27 14:54:22.792, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:22.807, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2024.08.27 14:54:23.068, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:23.084, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2024.08.27 14:54:23.257, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2024.08.27 14:54:23.332, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:23.347, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.27 14:54:23.425, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.27 14:54:23.583, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:54:23.613, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2024.08.27 14:54:23.664, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILevent   (0), 2024.08.27 14:54:23.725, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILevent   (0), 2024.08.27 14:54:23.726, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2024.08.27 14:54:23.771, SYS,  INFO,      108, License information, Using CodeMeter container 130-2083343716 (LOCAL)
+WCCILevent   (0), 2024.08.27 14:54:23.775, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2024.08.27 14:54:23.775, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2024.08.27 14:54:23.778, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCOAvalarch (2), 2024.08.27 14:54:23.799, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2024.08.27 14:54:23.835, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdata    (0), 2024.08.27 14:54:23.914, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2024.08.27 14:54:23.915, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.27 14:54:23.937, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2024.08.27 14:54:23.957, SYS,  INFO,      168, Initialize 126 alerts
+WCCILevent   (0), 2024.08.27 14:54:23.959, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2024.08.27 14:54:23.964, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 14:54:24.023, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCOAvalarch (3), 2024.08.27 14:54:24.075, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2024.08.27 14:54:24.135, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (4), 2024.08.27 14:54:24.337, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.27 14:54:24.587, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2024.08.27 14:54:35.655, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILproxy   (1), 2024.08.27 14:54:35.657, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2024.08.27 14:54:35.873, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCOActrl    (1), 2024.08.27 14:54:35.940, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (1), 2024.08.27 14:54:35.940, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2024.08.27 14:54:35.944, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:35.978, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.27 14:54:35.981, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2024.08.27 14:54:35.981, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2024.08.27 14:54:35.994, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:36.027, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.27 14:54:36.028, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2024.08.27 14:54:36.028, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2024.08.27 14:54:36.109, CTRL, INFO,        0, , DB Version Update, Initial set of project DB version: 3.19 DB version 0
+WCCILpmon    (1), 2024.08.27 14:54:36.126, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILsim     (1), 2024.08.27 14:54:36.186, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILsim     (1), 2024.08.27 14:54:36.194, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2024.08.27 14:54:36.198, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:36.228, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2024.08.27 14:54:36.228, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2024.08.27 14:54:36.229, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2024.08.27 14:54:36.241, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILsim     (1), 2024.08.27 14:54:36.390, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2024.08.27 14:54:36.390, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2024.08.27 14:54:36.475, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCOActrl    (2), 2024.08.27 14:54:36.534, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (2), 2024.08.27 14:54:36.535, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2024.08.27 14:54:36.538, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:36.567, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.27 14:54:36.569, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2024.08.27 14:54:36.569, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2024.08.27 14:54:36.570, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:36.687, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.27 14:54:36.687, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2024.08.27 14:54:36.687, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 14:54:36.782, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa
+WCCOActrl    (2), 2024.08.27 14:54:36.894, SYS,  INFO,        2/http, Server listens on Port https:// - 443.
+WCCOActrl    (2), 2024.08.27 14:54:37.150, PARAM,INFO,        0, , PM Add-ons REST interface is disabled by config, see section [PMAgent]
+WCCOActrl    (2), 2024.08.27 14:54:37.151, PARAM,INFO,        0, , REST reporting interface is disabled by config, see section [restReporting]
+WCCOActrl    (1), 2024.08.27 14:54:37.698, PARAM,INFO,        0, , Automatic online backup configured with default settings. Backup target directory: C:/WinCC_OA_Proj/TestDones1/data/OnlineBackup/
+WCCOAui      (0), 2024.08.27 14:54:48.830, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.27 14:54:48.840, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.27 14:54:48.841, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:48.866, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 14:54:48.868, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.27 14:54:48.868, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.27 14:54:48.869, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:54:48.881, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 14:54:48.882, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.27 14:54:48.884, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 14:54:48.973, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAjavadrv (2), 2024.08.27 14:55:04.518, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOActrl    (1), 2024.08.27 14:55:07.025, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2024.08.27 14:55:50.357, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2024.08.27 14:55:50.357, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 14:55:50.359, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2024.08.27 14:55:50.359, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2024.08.27 14:55:50.359, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2024.08.27 14:55:51.360, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2024.08.27 14:55:51.360, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2024.08.27 14:55:51.361, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2024.08.27 14:55:51.361, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2024.08.27 14:55:51.361, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2024.08.27 14:55:51.361, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2024.08.27 14:55:51.445, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdatabg  (1), 2024.08.27 14:55:51.447, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2024.08.27 14:55:51.452, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:55:51.526, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2024.08.27 14:55:52.024, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2024.08.27 14:55:52.024, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2024.08.27 14:57:24.694, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.27 14:57:24.695, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2024.08.27 14:57:24.695, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.695, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2024.08.27 14:57:24.696, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.696, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2024.08.27 14:57:24.696, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.696, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOActrl    (1), 2024.08.27 14:57:24.697, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.697, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCOAvalarch (5), 2024.08.27 14:57:24.697, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.697, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2024.08.27 14:57:24.697, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.697, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (3), 2024.08.27 14:57:24.699, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.699, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2024.08.27 14:57:24.699, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.699, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2024.08.27 14:57:24.700, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 14:57:24.700, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2024.08.27 14:57:24.700, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2024.08.27 14:57:24.736, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILsim     (1), 2024.08.27 14:57:24.736, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:24.736, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:57:24.736, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.27 14:57:24.737, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.27 14:57:24.737, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.27 14:57:24.737, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2024.08.27 14:57:24.740, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2024.08.27 14:57:24.740, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:24.740, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 14:57:24.740, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:57:24.741, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 14:57:24.741, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 14:57:24.741, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2024.08.27 14:57:24.754, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2024.08.27 14:57:24.754, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:24.754, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.27 14:57:24.755, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:57:24.755, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.27 14:57:24.755, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.27 14:57:24.755, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2024.08.27 14:57:24.766, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2024.08.27 14:57:24.799, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2024.08.27 14:57:24.912, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAui      (1), 2024.08.27 14:57:24.912, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:24.912, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 14:57:24.913, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:57:24.913, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 14:57:24.913, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 14:57:25.019, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2024.08.27 14:57:28.738, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2024.08.27 14:57:28.738, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2024.08.27 14:57:28.738, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.738, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (5), 2024.08.27 14:57:28.738, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 14:57:28.738, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2024.08.27 14:57:28.738, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.738, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (5), 2024.08.27 14:57:28.738, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 14:57:28.738, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2024.08.27 14:57:28.739, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.739, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (0), 2024.08.27 14:57:28.739, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 14:57:28.739, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (3), 2024.08.27 14:57:28.739, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2024.08.27 14:57:28.739, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (2), 2024.08.27 14:57:28.749, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2024.08.27 14:57:28.750, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (2), 2024.08.27 14:57:28.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 14:57:28.750, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2024.08.27 14:57:28.750, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (2), 2024.08.27 14:57:28.750, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 14:57:28.750, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2024.08.27 14:57:28.750, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.750, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (1), 2024.08.27 14:57:28.751, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 14:57:28.751, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2024.08.27 14:57:28.751, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2024.08.27 14:57:28.751, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 14:57:28.855, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2024.08.27 14:57:28.855, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2024.08.27 14:57:28.964, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2024.08.27 14:57:28.964, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 14:57:28.964, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:57:28.964, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:57:28.976, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 14:57:29.073, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2024.08.27 14:57:29.073, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdata    (0), 2024.08.27 14:57:29.971, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2024.08.27 14:57:29.971, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2024.08.27 14:57:29.971, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2024.08.27 14:57:29.971, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2024.08.27 14:57:29.972, SYS,  SEVERE,     39, Connection lost, (SYS: 0 Data -num 0 CONN: 1), exiting ...
+on closed
+WCCILdata    (0), 2024.08.27 14:57:29.972, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2024.08.27 14:57:29.972, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2024.08.27 14:57:29.973, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2024.08.27 14:57:29.973, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 14:57:30.975, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 14:57:30.978, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 14:57:31.083, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2024.08.27 14:57:31.083, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2024.08.27 14:57:31.191, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2024.08.27 14:57:31.300, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.27 14:57:32.602, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.27 14:57:32.661, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILdata    (0), 2024.08.27 14:57:32.723, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdata    (0), 2024.08.27 14:57:32.726, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2024.08.27 14:57:33.710, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.27 14:57:33.710, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.27 14:57:33.710, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 14:57:33.728, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2024.08.27 14:57:33.746, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2024.08.27 14:57:33.747, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2024.08.27 14:57:33.747, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2024.08.27 14:57:33.747, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2024.08.27 14:57:33.748, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:33.761, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2024.08.27 14:57:33.763, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2024.08.27 14:57:33.881, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2024.08.27 14:57:33.942, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (0), 2024.08.27 14:57:33.945, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2024.08.27 14:57:33.949, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:34.013, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2024.08.27 14:57:34.016, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:57:34.150, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2024.08.27 14:57:34.210, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (1), 2024.08.27 14:57:34.213, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2024.08.27 14:57:34.216, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:34.277, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2024.08.27 14:57:34.278, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:57:34.404, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2024.08.27 14:57:34.462, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (2), 2024.08.27 14:57:34.464, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2024.08.27 14:57:34.469, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:34.520, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2024.08.27 14:57:34.521, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:57:34.672, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2024.08.27 14:57:34.732, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (3), 2024.08.27 14:57:34.736, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2024.08.27 14:57:34.739, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:34.802, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2024.08.27 14:57:34.805, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:57:34.934, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2024.08.27 14:57:34.997, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (4), 2024.08.27 14:57:35.000, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2024.08.27 14:57:35.004, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:35.059, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2024.08.27 14:57:35.060, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 14:57:35.209, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2024.08.27 14:57:35.268, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (5), 2024.08.27 14:57:35.272, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2024.08.27 14:57:35.273, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:35.335, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2024.08.27 14:57:35.340, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2024.08.27 14:57:36.972, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:36.986, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.27 14:57:37.235, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:37.251, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2024.08.27 14:57:37.501, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:37.517, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2024.08.27 14:57:37.763, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:37.779, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2024.08.27 14:57:37.979, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2024.08.27 14:57:38.027, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:38.042, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.27 14:57:38.243, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.27 14:57:38.305, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 14:57:38.321, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2024.08.27 14:57:38.351, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILevent   (0), 2024.08.27 14:57:38.412, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILevent   (0), 2024.08.27 14:57:38.413, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2024.08.27 14:57:38.435, SYS,  INFO,      108, License information, Using CodeMeter container 130-2083343716 (LOCAL)
+WCCILevent   (0), 2024.08.27 14:57:38.439, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2024.08.27 14:57:38.439, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2024.08.27 14:57:38.441, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:38.499, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCOAvalarch (2), 2024.08.27 14:57:38.510, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2024.08.27 14:57:38.578, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2024.08.27 14:57:38.578, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.27 14:57:38.602, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2024.08.27 14:57:38.620, SYS,  INFO,      168, Initialize 126 alerts
+WCCILevent   (0), 2024.08.27 14:57:38.622, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2024.08.27 14:57:38.627, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 14:57:38.719, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCOAvalarch (3), 2024.08.27 14:57:38.769, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2024.08.27 14:57:38.799, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (4), 2024.08.27 14:57:39.032, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.27 14:57:39.314, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2024.08.27 14:57:50.356, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILproxy   (1), 2024.08.27 14:57:50.359, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2024.08.27 14:57:50.507, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCOActrl    (1), 2024.08.27 14:57:50.575, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (1), 2024.08.27 14:57:50.575, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2024.08.27 14:57:50.578, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:50.612, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.27 14:57:50.614, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2024.08.27 14:57:50.614, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2024.08.27 14:57:50.615, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:50.652, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.27 14:57:50.652, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2024.08.27 14:57:50.652, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 14:57:50.770, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILsim     (1), 2024.08.27 14:57:50.826, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILsim     (1), 2024.08.27 14:57:50.832, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2024.08.27 14:57:50.836, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:50.868, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2024.08.27 14:57:50.868, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2024.08.27 14:57:50.868, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2024.08.27 14:57:50.869, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILsim     (1), 2024.08.27 14:57:50.905, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2024.08.27 14:57:50.905, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2024.08.27 14:57:51.013, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCOActrl    (2), 2024.08.27 14:57:51.077, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (2), 2024.08.27 14:57:51.078, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2024.08.27 14:57:51.082, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:51.117, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.27 14:57:51.118, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2024.08.27 14:57:51.119, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2024.08.27 14:57:51.119, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:51.163, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.27 14:57:51.163, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2024.08.27 14:57:51.164, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2024.08.27 14:57:51.326, SYS,  INFO,        2/http, Server listens on Port https:// - 443.
+WCCOActrl    (2), 2024.08.27 14:57:51.329, PARAM,INFO,        0, , PM Add-ons REST interface is disabled by config, see section [PMAgent]
+WCCOActrl    (2), 2024.08.27 14:57:51.329, PARAM,INFO,        0, , REST reporting interface is disabled by config, see section [restReporting]
+WCCILpmon    (1), 2024.08.27 14:57:51.341, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa
+WCCOAui      (0), 2024.08.27 14:57:56.790, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.27 14:57:56.802, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.27 14:57:56.803, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:56.828, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 14:57:56.829, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.27 14:57:56.829, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.27 14:57:56.831, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:57:56.846, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 14:57:56.846, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.27 14:57:56.848, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 14:57:56.979, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAjavadrv (2), 2024.08.27 14:58:17.219, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOActrl    (1), 2024.08.27 14:58:20.860, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2024.08.27 14:58:57.387, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2024.08.27 14:58:57.387, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 14:58:57.389, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2024.08.27 14:58:57.389, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2024.08.27 14:58:57.389, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2024.08.27 14:58:58.379, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2024.08.27 14:58:58.380, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2024.08.27 14:58:58.380, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2024.08.27 14:58:58.380, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2024.08.27 14:58:58.380, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2024.08.27 14:58:58.380, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2024.08.27 14:58:58.460, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdatabg  (1), 2024.08.27 14:58:58.463, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2024.08.27 14:58:58.467, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 14:58:58.531, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2024.08.27 14:58:59.025, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2024.08.27 14:58:59.025, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.27 15:00:09.457, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAui      (1), 2024.08.27 15:00:09.457, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:00:09.457, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:00:09.457, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+
+WCCOAui      (1), 2024.08.27 15:00:09.458, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:00:09.571, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2024.08.27 15:00:09.605, SYS,  WARNING,    54, Unexpected state, HTTPServer::readMessage, ::1, Connection reset by peer (10054)
+WCCOAjavadrv (2), 2024.08.27 15:07:21.796, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCILevent   (0), 2024.08.27 15:07:39.029, SYS,  INFO,      108, License information, License changed
+
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+ctrl        = 2
+update      = 2
+
+
+WCCOAjavadrv (2), 2024.08.27 15:07:43.194, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCILdata    (0), 2024.08.27 15:11:50.887, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILevent   (0), 2024.08.27 15:11:50.887, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILdata    (0), 2024.08.27 15:11:50.889, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILpmon    (1), 2024.08.27 15:11:50.909, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #1
+WCCILpmon    (1), 2024.08.27 15:11:50.971, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILpmon    (1), 2024.08.27 15:11:52.062, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2024.08.27 15:11:52.093, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILpmon    (1), 2024.08.27 15:11:53.068, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #2
+WCCILpmon    (1), 2024.08.27 15:11:53.094, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILevent   (0), 2024.08.27 15:11:53.781, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILdata    (0), 2024.08.27 15:11:53.781, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILdata    (0), 2024.08.27 15:11:53.781, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILevent   (0), 2024.08.27 15:11:53.783, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Status code: Itc_Tp_Read_Call_Failed, errno: Connection reset by peer (10054)
+WCCILpmon    (1), 2024.08.27 15:17:12.599, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.27 15:17:15.216, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.27 15:17:15.472, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILdata    (0), 2024.08.27 15:17:15.690, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdata    (0), 2024.08.27 15:17:15.865, SYS,  SEVERE,    106, Database repair, DataManager, repairDBase (on), Datenbank wurde nicht geschlossen oder es lauft bereits ein anderer Data-Manager.
+Logdatei : C:\WinCC_OA_Proj\TestDones1\log\dbRepair.log
+WCCILdata    (0), 2024.08.27 15:17:43.160, SYS,  INFO,      106, Database repair, DataManager, repairDBase (on), Database repaired
+WCCILdata    (0), 2024.08.27 15:17:43.160, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2024.08.27 15:17:44.151, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.27 15:17:44.152, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.27 15:17:44.152, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 15:17:44.186, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2024.08.27 15:17:44.221, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2024.08.27 15:17:44.224, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2024.08.27 15:17:44.225, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2024.08.27 15:17:44.226, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2024.08.27 15:17:44.227, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:44.247, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2024.08.27 15:17:44.249, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2024.08.27 15:17:44.477, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2024.08.27 15:17:44.790, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (0), 2024.08.27 15:17:44.794, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2024.08.27 15:17:44.797, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:44.864, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2024.08.27 15:17:44.868, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 15:17:44.934, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2024.08.27 15:17:44.989, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (1), 2024.08.27 15:17:44.993, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2024.08.27 15:17:44.996, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:45.053, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2024.08.27 15:17:45.054, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 15:17:45.172, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2024.08.27 15:17:45.234, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (2), 2024.08.27 15:17:45.239, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2024.08.27 15:17:45.243, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:45.302, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2024.08.27 15:17:45.303, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 15:17:45.403, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2024.08.27 15:17:45.456, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (3), 2024.08.27 15:17:45.460, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2024.08.27 15:17:45.464, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:45.519, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2024.08.27 15:17:45.527, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 15:17:45.684, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2024.08.27 15:17:45.742, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (4), 2024.08.27 15:17:45.746, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2024.08.27 15:17:45.750, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:45.808, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2024.08.27 15:17:45.823, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.27 15:17:45.920, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2024.08.27 15:17:46.084, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (5), 2024.08.27 15:17:46.088, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2024.08.27 15:17:46.091, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:46.159, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2024.08.27 15:17:46.166, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2024.08.27 15:17:47.823, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:47.839, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.27 15:17:48.028, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:48.058, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2024.08.27 15:17:48.259, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:48.291, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2024.08.27 15:17:48.479, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:48.495, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2024.08.27 15:17:48.779, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:48.794, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2024.08.27 15:17:48.826, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (1), 2024.08.27 15:17:49.041, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.27 15:17:49.104, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.27 15:17:49.134, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2024.08.27 15:17:49.272, SYS,  INFO,        0, , Ready for operation.
+WCCILpmon    (1), 2024.08.27 15:17:49.354, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCOAvalarch (3), 2024.08.27 15:17:49.489, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2024.08.27 15:17:49.527, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILevent   (0), 2024.08.27 15:17:49.528, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2024.08.27 15:17:49.566, SYS,  INFO,      108, License information, Using CodeMeter container 130-2083343716 (LOCAL)
+WCCILevent   (0), 2024.08.27 15:17:49.572, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2024.08.27 15:17:49.572, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2024.08.27 15:17:49.573, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:17:49.626, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdata    (0), 2024.08.27 15:17:49.703, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2024.08.27 15:17:49.704, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.27 15:17:49.726, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2024.08.27 15:17:49.751, SYS,  INFO,      168, Initialize 126 alerts
+WCCILevent   (0), 2024.08.27 15:17:49.753, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2024.08.27 15:17:49.760, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (4), 2024.08.27 15:17:49.792, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2024.08.27 15:17:49.928, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 15:17:49.984, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCOAvalarch (5), 2024.08.27 15:17:50.114, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2024.08.27 15:18:01.604, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILproxy   (1), 2024.08.27 15:18:01.617, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2024.08.27 15:18:01.823, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCOActrl    (1), 2024.08.27 15:18:01.884, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (1), 2024.08.27 15:18:01.884, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2024.08.27 15:18:01.888, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:01.916, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.27 15:18:01.918, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2024.08.27 15:18:01.918, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2024.08.27 15:18:01.932, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:01.960, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.27 15:18:01.960, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2024.08.27 15:18:01.961, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 15:18:02.078, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILsim     (1), 2024.08.27 15:18:02.136, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILsim     (1), 2024.08.27 15:18:02.144, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2024.08.27 15:18:02.147, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:02.181, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2024.08.27 15:18:02.181, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2024.08.27 15:18:02.182, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2024.08.27 15:18:02.183, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILsim     (1), 2024.08.27 15:18:02.219, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2024.08.27 15:18:02.220, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2024.08.27 15:18:02.302, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCOActrl    (2), 2024.08.27 15:18:02.357, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (2), 2024.08.27 15:18:02.357, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2024.08.27 15:18:02.360, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:02.399, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.27 15:18:02.399, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2024.08.27 15:18:02.399, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2024.08.27 15:18:02.414, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:02.445, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.27 15:18:02.445, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2024.08.27 15:18:02.445, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 15:18:02.542, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa
+WCCOActrl    (2), 2024.08.27 15:18:03.084, SYS,  INFO,        2/http, Server listens on Port https:// - 443.
+WCCOActrl    (2), 2024.08.27 15:18:03.089, PARAM,INFO,        0, , PM Add-ons REST interface is disabled by config, see section [PMAgent]
+WCCOActrl    (2), 2024.08.27 15:18:03.089, PARAM,INFO,        0, , REST reporting interface is disabled by config, see section [restReporting]
+WCCOActrl    (2), 2024.08.27 15:18:10.124, SYS,  SEVERE,    141, Connection to client TestStandS2I could not be encrypted: 
+WCCOAui      (0), 2024.08.27 15:18:10.183, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.27 15:18:10.194, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.27 15:18:10.195, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:10.204, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 15:18:10.206, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.27 15:18:10.206, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.27 15:18:10.216, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:18:10.230, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 15:18:10.231, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.27 15:18:10.233, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 15:18:10.316, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAjavadrv (2), 2024.08.27 15:18:21.390, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOActrl    (1), 2024.08.27 15:18:32.199, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2024.08.27 15:19:11.211, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2024.08.27 15:19:11.211, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 15:19:11.212, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2024.08.27 15:19:11.213, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2024.08.27 15:19:11.213, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2024.08.27 15:19:11.710, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2024.08.27 15:19:11.710, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2024.08.27 15:19:11.710, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2024.08.27 15:19:11.710, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2024.08.27 15:19:11.711, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2024.08.27 15:19:11.711, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2024.08.27 15:19:11.967, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdatabg  (1), 2024.08.27 15:19:11.970, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2024.08.27 15:19:11.972, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:19:12.032, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2024.08.27 15:19:12.533, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2024.08.27 15:19:12.533, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2024.08.27 15:25:25.181, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:25:28.726, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:25:28.727, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2024.08.27 15:25:28.727, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAui      (1), 2024.08.27 15:25:28.924, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:25:28.924, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:25:28.925, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:25:28.925, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:25:29.057, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 15:25:35.387, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:25:35.406, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config
+WCCOAui      (0), 2024.08.27 15:25:46.620, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.27 15:25:46.631, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.27 15:25:46.633, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:25:46.659, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 15:25:46.659, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.27 15:25:46.659, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.27 15:25:46.661, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:25:46.675, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 15:25:46.675, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.27 15:25:46.678, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.27 15:26:51.395, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:26:55.354, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:26:55.354, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2024.08.27 15:26:55.356, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAui      (1), 2024.08.27 15:26:55.538, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAui      (1), 2024.08.27 15:26:55.538, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:26:55.538, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:26:55.538, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+
+WCCOAui      (1), 2024.08.27 15:26:55.538, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:26:55.666, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2024.08.27 15:26:55.695, SYS,  WARNING,    54, Unexpected state, HTTPServer::readMessage, ::1, Connection reset by peer (10054)
+WCCILpmon    (1), 2024.08.27 15:27:06.813, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 13
+WCCILpmon    (1), 2024.08.27 15:27:06.835, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config -lang en_US.utf8
+WCCOAui      (0), 2024.08.27 15:27:11.957, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.27 15:27:11.968, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.27 15:27:11.970, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:27:11.981, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 15:27:11.982, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.27 15:27:11.983, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.27 15:27:11.984, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.27 15:27:11.999, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.27 15:27:11.999, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.27 15:27:12.001, SYS,  INFO,      103, User names/passwords initialized
+WCCOAjavadrv (2), 2024.08.27 15:27:26.866, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCILevent   (0), 2024.08.27 15:27:50.083, SYS,  INFO,      108, License information, License changed
+
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+ui          = 1
+para        = 1
+event       = 1
+ios         = 2000000000
+ssi         = 0
+ctrl        = 2
+update      = 2
+
+
+WCCILpmon    (1), 2024.08.27 15:29:46.676, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.27 15:29:46.676, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2024.08.27 15:29:46.677, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.677, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2024.08.27 15:29:46.677, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.677, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2024.08.27 15:29:46.677, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.677, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOActrl    (1), 2024.08.27 15:29:46.678, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.678, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCOAvalarch (5), 2024.08.27 15:29:46.678, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.678, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2024.08.27 15:29:46.679, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (3), 2024.08.27 15:29:46.679, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2024.08.27 15:29:46.679, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2024.08.27 15:29:46.679, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:46.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2024.08.27 15:29:46.681, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2024.08.27 15:29:46.717, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILsim     (1), 2024.08.27 15:29:46.717, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:46.717, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:29:46.717, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.27 15:29:46.717, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.27 15:29:46.717, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.27 15:29:46.718, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2024.08.27 15:29:46.721, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2024.08.27 15:29:46.722, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:46.722, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 15:29:46.722, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:29:46.722, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 15:29:46.722, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 15:29:46.722, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2024.08.27 15:29:46.724, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2024.08.27 15:29:46.724, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILevent   (0), 2024.08.27 15:29:46.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:46.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.27 15:29:46.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.27 15:29:46.725, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2024.08.27 15:29:46.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.27 15:29:46.744, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2024.08.27 15:29:46.765, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2024.08.27 15:29:46.920, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAui      (1), 2024.08.27 15:29:46.920, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+nection closed
+WCCOAui      (1), 2024.08.27 15:29:46.921, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:29:46.921, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:29:46.921, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.27 15:29:47.039, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2024.08.27 15:29:50.724, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2024.08.27 15:29:50.724, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:50.724, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (1), 2024.08.27 15:29:50.724, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:50.724, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2024.08.27 15:29:50.725, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:50.725, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (2), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (2), 2024.08.27 15:29:50.725, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 15:29:50.725, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2024.08.27 15:29:50.725, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:50.726, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (4), 2024.08.27 15:29:50.726, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 15:29:50.726, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2024.08.27 15:29:50.726, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (5), 2024.08.27 15:29:50.726, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2024.08.27 15:29:50.726, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2024.08.27 15:29:50.738, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:50.738, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:50.739, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (3), 2024.08.27 15:29:50.739, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2024.08.27 15:29:50.739, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2024.08.27 15:29:50.739, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:50.740, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2024.08.27 15:29:50.740, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:50.740, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2024.08.27 15:29:50.740, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2024.08.27 15:29:50.740, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 15:29:50.752, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2024.08.27 15:29:50.752, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2024.08.27 15:29:50.845, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2024.08.27 15:29:50.845, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.27 15:29:50.845, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:29:50.845, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 15:29:50.858, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 15:29:50.861, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2024.08.27 15:29:50.861, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdata    (0), 2024.08.27 15:29:51.850, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2024.08.27 15:29:51.850, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2024.08.27 15:29:51.850, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2024.08.27 15:29:51.850, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2024.08.27 15:29:51.851, SYS,  SEVERE,     39, Connection lost, (SYS: 0 Data -num 0 CONN: 1), exiting ...
+WCCILdata    (0), 2024.08.27 15:29:51.851, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.27 15:29:51.851, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2024.08.27 15:29:51.851, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2024.08.27 15:29:51.852, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2024.08.27 15:29:51.852, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.27 15:29:52.856, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.27 15:29:52.860, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.27 15:29:52.888, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2024.08.27 15:29:52.888, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.27 15:29:53.213, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.27 15:29:53.214, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.27 15:29:53.323, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.27 15:29:53.323, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 08:45:30.897, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.28 08:45:38.929, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.28 08:45:38.950, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILdata    (0), 2024.08.28 08:45:39.012, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdata    (0), 2024.08.28 08:45:39.016, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2024.08.28 08:45:40.010, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.28 08:45:40.011, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.28 08:45:40.011, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.28 08:45:40.028, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2024.08.28 08:45:40.047, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2024.08.28 08:45:40.047, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2024.08.28 08:45:40.048, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2024.08.28 08:45:40.048, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2024.08.28 08:45:40.049, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:40.062, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2024.08.28 08:45:40.063, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2024.08.28 08:45:40.183, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2024.08.28 08:45:40.244, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (0), 2024.08.28 08:45:40.249, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2024.08.28 08:45:40.252, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:40.318, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2024.08.28 08:45:40.320, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 08:45:40.413, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2024.08.28 08:45:40.472, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (1), 2024.08.28 08:45:40.477, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2024.08.28 08:45:40.480, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:40.542, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2024.08.28 08:45:40.543, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 08:45:40.652, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2024.08.28 08:45:40.715, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (2), 2024.08.28 08:45:40.721, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2024.08.28 08:45:40.724, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:40.790, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2024.08.28 08:45:40.791, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 08:45:40.883, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2024.08.28 08:45:40.938, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (3), 2024.08.28 08:45:40.942, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2024.08.28 08:45:40.944, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:40.997, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2024.08.28 08:45:41.007, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 08:45:41.119, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2024.08.28 08:45:41.182, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (4), 2024.08.28 08:45:41.187, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2024.08.28 08:45:41.190, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:41.253, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2024.08.28 08:45:41.256, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 08:45:41.338, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2024.08.28 08:45:41.399, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (5), 2024.08.28 08:45:41.405, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2024.08.28 08:45:41.409, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:41.472, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2024.08.28 08:45:41.472, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2024.08.28 08:45:43.279, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:43.294, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.28 08:45:43.509, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:43.541, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2024.08.28 08:45:43.744, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:43.759, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2024.08.28 08:45:43.963, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:43.978, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2024.08.28 08:45:44.210, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:44.226, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2024.08.28 08:45:44.289, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.28 08:45:44.431, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 08:45:44.446, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2024.08.28 08:45:44.458, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILevent   (0), 2024.08.28 08:45:44.519, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILevent   (0), 2024.08.28 08:45:44.520, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCOAvalarch (1), 2024.08.28 08:45:44.525, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2024.08.28 08:45:44.542, SYS,  INFO,      108, License information, Using CodeMeter container 130-2083343716 (LOCAL)
+WCCILevent   (0), 2024.08.28 08:45:44.546, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2024.08.28 08:45:44.547, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2024.08.28 08:45:44.548, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:44.596, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdata    (0), 2024.08.28 08:45:44.673, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2024.08.28 08:45:44.674, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.28 08:45:44.694, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2024.08.28 08:45:44.716, SYS,  INFO,      168, Initialize 126 alerts
+WCCILevent   (0), 2024.08.28 08:45:44.718, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2024.08.28 08:45:44.723, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (2), 2024.08.28 08:45:44.757, SYS,  INFO,        0, , Ready for operation.
+WCCILpmon    (1), 2024.08.28 08:45:44.805, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILdata    (0), 2024.08.28 08:45:44.892, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (3), 2024.08.28 08:45:44.968, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2024.08.28 08:45:45.218, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.28 08:45:45.437, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2024.08.28 08:45:56.445, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILproxy   (1), 2024.08.28 08:45:56.448, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2024.08.28 08:45:56.592, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCOActrl    (1), 2024.08.28 08:45:56.659, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (1), 2024.08.28 08:45:56.660, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2024.08.28 08:45:56.664, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:56.697, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.28 08:45:56.699, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2024.08.28 08:45:56.699, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2024.08.28 08:45:56.700, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:56.733, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.28 08:45:56.734, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2024.08.28 08:45:56.734, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.28 08:45:56.843, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILsim     (1), 2024.08.28 08:45:56.898, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILsim     (1), 2024.08.28 08:45:56.905, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2024.08.28 08:45:56.908, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:56.939, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2024.08.28 08:45:56.939, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2024.08.28 08:45:56.940, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2024.08.28 08:45:56.941, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILsim     (1), 2024.08.28 08:45:56.976, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2024.08.28 08:45:56.977, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2024.08.28 08:45:57.072, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCOActrl    (2), 2024.08.28 08:45:57.136, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (2), 2024.08.28 08:45:57.137, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2024.08.28 08:45:57.142, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:57.176, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.28 08:45:57.178, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2024.08.28 08:45:57.178, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2024.08.28 08:45:57.193, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:45:57.239, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.28 08:45:57.240, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2024.08.28 08:45:57.240, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.28 08:45:57.306, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config -lang en_US.utf8
+WCCOActrl    (2), 2024.08.28 08:45:57.462, SYS,  INFO,        2/http, Server listens on Port https:// - 443.
+WCCOActrl    (2), 2024.08.28 08:45:57.465, PARAM,INFO,        0, , PM Add-ons REST interface is disabled by config, see section [PMAgent]
+WCCOActrl    (2), 2024.08.28 08:45:57.465, PARAM,INFO,        0, , REST reporting interface is disabled by config, see section [restReporting]
+WCCOAui      (0), 2024.08.28 08:46:05.572, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.28 08:46:05.584, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.28 08:46:05.586, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:46:05.610, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.28 08:46:05.612, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.28 08:46:05.612, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.28 08:46:05.613, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:46:05.627, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.28 08:46:05.628, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.28 08:46:05.630, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.28 08:46:05.703, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOAjavadrv (2), 2024.08.28 08:46:17.980, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOActrl    (1), 2024.08.28 08:46:26.910, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2024.08.28 08:47:05.816, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2024.08.28 08:47:05.816, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.28 08:47:05.818, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2024.08.28 08:47:05.818, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2024.08.28 08:47:05.819, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2024.08.28 08:47:06.814, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2024.08.28 08:47:06.814, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2024.08.28 08:47:06.814, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2024.08.28 08:47:06.815, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2024.08.28 08:47:06.816, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2024.08.28 08:47:06.816, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2024.08.28 08:47:06.898, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdatabg  (1), 2024.08.28 08:47:06.901, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2024.08.28 08:47:06.904, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 08:47:06.997, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2024.08.28 08:47:07.496, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2024.08.28 08:47:07.496, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAjavadrv (2), 2024.08.28 08:49:20.148, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (2), 2024.08.28 08:53:50.114, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCILevent   (0), 2024.08.28 08:55:45.009, SYS,  INFO,      108, License information, License changed
+
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+ui          = 1
+para        = 1
+event       = 1
+ios         = 2000000000
+ssi         = 0
+ctrl        = 2
+update      = 2
+
+
+WCCILpmon    (1), 2024.08.28 11:45:29.769, SYS,  INFO,       21/pmon, Got STOP_ALL command from ::1, stopping the project
+WCCILpmon    (1), 2024.08.28 11:45:29.770, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.770, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOAui      (1), 2024.08.28 11:45:29.770, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (2), 2024.08.28 11:45:29.771, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.28 11:45:29.771, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2024.08.28 11:45:29.771, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+ signal SIGTERM
+WCCOActrl    (1), 2024.08.28 11:45:29.771, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.28 11:45:29.771, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (5), 2024.08.28 11:45:29.773, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (4), 2024.08.28 11:45:29.773, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAvalarch (3), 2024.08.28 11:45:29.773, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2024.08.28 11:45:29.773, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.28 11:45:29.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2024.08.28 11:45:29.774, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2024.08.28 11:45:29.774, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2024.08.28 11:45:29.774, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2024.08.28 11:45:29.812, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILsim     (1), 2024.08.28 11:45:29.812, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:29.812, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.28 11:45:29.812, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.28 11:45:29.813, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2024.08.28 11:45:29.813, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2024.08.28 11:45:29.816, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2024.08.28 11:45:29.817, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:29.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.28 11:45:29.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.28 11:45:29.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.28 11:45:29.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2024.08.28 11:45:29.817, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2024.08.28 11:45:29.827, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2024.08.28 11:45:29.827, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:29.827, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.28 11:45:29.828, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.28 11:45:29.828, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.28 11:45:29.828, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2024.08.28 11:45:29.828, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2024.08.28 11:45:29.841, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2024.08.28 11:45:29.865, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2024.08.28 11:45:29.951, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAui      (1), 2024.08.28 11:45:29.953, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:29.953, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.28 11:45:29.953, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.28 11:45:29.953, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.28 11:45:29.954, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.28 11:45:30.070, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2024.08.28 11:45:33.817, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2024.08.28 11:45:33.817, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2024.08.28 11:45:33.817, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2024.08.28 11:45:33.817, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:33.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (1), 2024.08.28 11:45:33.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.28 11:45:33.817, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2024.08.28 11:45:33.817, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:33.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (1), 2024.08.28 11:45:33.817, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.28 11:45:33.817, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2024.08.28 11:45:33.817, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (2), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:33.818, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (3), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (2), 2024.08.28 11:45:33.818, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+ 1), Connection closed
+WCCILdata    (0), 2024.08.28 11:45:33.818, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (3), 2024.08.28 11:45:33.818, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (4), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2024.08.28 11:45:33.818, SYS,  INFO,        2, Manager Stop
+HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2024.08.28 11:45:33.818, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2024.08.28 11:45:33.818, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2024.08.28 11:45:33.830, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:33.830, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2024.08.28 11:45:33.831, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.28 11:45:33.831, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2024.08.28 11:45:33.831, SYS,  INFO,       39, Connection lost, (SYS: 0 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2024.08.28 11:45:33.831, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 11:45:33.921, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2024.08.28 11:45:33.921, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2024.08.28 11:45:33.936, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2024.08.28 11:45:33.936, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.28 11:45:33.936, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.28 11:45:33.936, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.28 11:45:33.948, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 11:45:34.028, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2024.08.28 11:45:34.028, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdata    (0), 2024.08.28 11:45:34.945, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2024.08.28 11:45:34.945, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2024.08.28 11:45:34.945, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2024.08.28 11:45:34.945, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2024.08.28 11:45:34.945, SYS,  SEVERE,     39, Connection lost, (SYS: 0 Data -num 0 CONN: 1), exiting ...
+WCCILdata    (0), 2024.08.28 11:45:34.945, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2024.08.28 11:45:34.946, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2024.08.28 11:45:34.946, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2024.08.28 11:45:34.946, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2024.08.28 11:45:34.946, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.28 11:45:35.949, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.28 11:45:35.953, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 11:45:36.057, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2024.08.28 11:45:36.057, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2024.08.28 11:45:36.783, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2024.08.28 11:45:36.815, SYS,  INFO,       13/pmon, Completely stopped the project - waiting for commands
+WCCILpmon    (1), 2024.08.28 11:45:40.557, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2024.08.28 11:45:40.558, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2024.08.28 11:45:40.558, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2024.08.28 11:45:59.012, SYS,  INFO,        1, Manager Start, WAIT_MODE
+WCCILpmon    (1), 2024.08.28 11:46:02.745, SYS,  INFO,       20/pmon, Got START_ALL command from ::1, starting the project
+WCCILpmon    (1), 2024.08.28 11:46:02.766, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILdata.exe" -PROJ "TestDones1" -pmonIndex 1 
+WCCILdata    (0), 2024.08.28 11:46:02.829, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdata    (0), 2024.08.28 11:46:02.833, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2024.08.28 11:46:03.826, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.28 11:46:03.826, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2024.08.28 11:46:03.826, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.28 11:46:03.843, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2024.08.28 11:46:03.863, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2024.08.28 11:46:03.864, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2024.08.28 11:46:03.864, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2024.08.28 11:46:03.864, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2024.08.28 11:46:03.866, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 11:46:03.878, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2024.08.28 11:46:03.880, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2024.08.28 11:46:03.966, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2024.08.28 11:46:04.030, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (0), 2024.08.28 11:46:04.034, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2024.08.28 11:46:04.037, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:04.104, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2024.08.28 11:46:04.105, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 11:46:04.203, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2024.08.28 11:46:04.265, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (1), 2024.08.28 11:46:04.270, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2024.08.28 11:46:04.273, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:04.329, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2024.08.28 11:46:04.330, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 11:46:04.432, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2024.08.28 11:46:04.484, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (2), 2024.08.28 11:46:04.489, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2024.08.28 11:46:04.492, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:04.544, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2024.08.28 11:46:04.544, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 11:46:04.665, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2024.08.28 11:46:04.725, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (3), 2024.08.28 11:46:04.729, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2024.08.28 11:46:04.733, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:04.795, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2024.08.28 11:46:04.801, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 11:46:04.899, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2024.08.28 11:46:04.958, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (4), 2024.08.28 11:46:04.963, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2024.08.28 11:46:04.966, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:05.028, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2024.08.28 11:46:05.034, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2024.08.28 11:46:05.137, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAvalarch.exe" -PROJ "TestDones1" -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2024.08.28 11:46:05.301, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAvalarch (5), 2024.08.28 11:46:05.305, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2024.08.28 11:46:05.309, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:05.370, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2024.08.28 11:46:05.377, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2024.08.28 11:46:07.063, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 11:46:07.094, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2024.08.28 11:46:07.295, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 11:46:07.310, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2024.08.28 11:46:07.514, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 11:46:07.530, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2024.08.28 11:46:07.748, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 11:46:07.764, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2024.08.28 11:46:07.984, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2024.08.28 11:46:07.999, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2024.08.28 11:46:08.078, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (1), 2024.08.28 11:46:08.309, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.28 11:46:08.340, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2024.08.28 11:46:08.361, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILevent.exe" -PROJ "TestDones1" -pmonIndex 8 
+WCCILdata    (0), 2024.08.28 11:46:08.370, SYS,  INFO,        0, , Sending initial values to archive
+WCCILevent   (0), 2024.08.28 11:46:08.425, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILevent   (0), 2024.08.28 11:46:08.426, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCOAvalarch (2), 2024.08.28 11:46:08.528, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2024.08.28 11:46:08.534, SYS,  INFO,      108, License information, Using CodeMeter container 130-2083343716 (LOCAL)
+WCCILevent   (0), 2024.08.28 11:46:08.538, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2024.08.28 11:46:08.539, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2024.08.28 11:46:08.541, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:08.599, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdata    (0), 2024.08.28 11:46:08.675, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2024.08.28 11:46:08.675, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.28 11:46:08.697, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2024.08.28 11:46:08.721, SYS,  INFO,      168, Initialize 126 alerts
+WCCILevent   (0), 2024.08.28 11:46:08.722, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2024.08.28 11:46:08.728, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (3), 2024.08.28 11:46:08.764, SYS,  INFO,        0, , Ready for operation.
+WCCILpmon    (1), 2024.08.28 11:46:08.814, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILproxy.exe" -PROJ "TestDones1" -pmonIndex 9 
+WCCILdata    (0), 2024.08.28 11:46:08.900, SYS,  INFO,      103, User names/passwords initialized
+WCCOAvalarch (4), 2024.08.28 11:46:08.993, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2024.08.28 11:46:09.348, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2024.08.28 11:46:20.457, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILproxy   (1), 2024.08.28 11:46:20.460, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2024.08.28 11:46:20.617, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 10 -f pvss_scripts.lst -num 1
+WCCOActrl    (1), 2024.08.28 11:46:20.687, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (1), 2024.08.28 11:46:20.688, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2024.08.28 11:46:20.692, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:20.726, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.28 11:46:20.727, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2024.08.28 11:46:20.728, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2024.08.28 11:46:20.752, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:20.785, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2024.08.28 11:46:20.785, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2024.08.28 11:46:20.785, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.28 11:46:20.873, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCILsim.exe" -PROJ "TestDones1" -pmonIndex 11 
+WCCILsim     (1), 2024.08.28 11:46:20.928, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILsim     (1), 2024.08.28 11:46:20.936, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2024.08.28 11:46:20.939, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:20.987, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2024.08.28 11:46:20.987, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2024.08.28 11:46:20.987, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2024.08.28 11:46:21.002, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILsim     (1), 2024.08.28 11:46:21.039, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 2592000 seconds
+WCCILsim     (1), 2024.08.28 11:46:21.039, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2024.08.28 11:46:21.116, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOActrl.exe" -PROJ "TestDones1" -pmonIndex 12 webclient_http.ctl -num 2
+WCCOActrl    (2), 2024.08.28 11:46:21.173, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOActrl    (2), 2024.08.28 11:46:21.174, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2024.08.28 11:46:21.177, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:21.206, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.28 11:46:21.208, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2024.08.28 11:46:21.208, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2024.08.28 11:46:21.208, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:21.249, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2024.08.28 11:46:21.249, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2024.08.28 11:46:21.251, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.28 11:46:21.347, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.19\bin\WCCOAui.exe" -PROJ "TestDones1" -pmonIndex 13 -m gedi -ssa -config C:\WinCC_OA_Proj\TestDones1\config\config -lang en_US.utf8
+WCCOActrl    (2), 2024.08.28 11:46:21.389, SYS,  INFO,        2/http, Server listens on Port https:// - 443.
+WCCOActrl    (2), 2024.08.28 11:46:21.392, PARAM,INFO,        0, , PM Add-ons REST interface is disabled by config, see section [PMAgent]
+WCCOActrl    (2), 2024.08.28 11:46:21.392, PARAM,INFO,        0, , REST reporting interface is disabled by config, see section [restReporting]
+WCCOAui      (0), 2024.08.28 11:46:30.231, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCOAui      (0), 2024.08.28 11:46:30.242, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2024.08.28 11:46:30.244, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:30.268, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.28 11:46:30.268, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2024.08.28 11:46:30.268, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2024.08.28 11:46:30.270, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:46:30.285, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2024.08.28 11:46:30.285, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2024.08.28 11:46:30.287, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2024.08.28 11:46:30.408, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOActrl    (1), 2024.08.28 11:46:51.068, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2024.08.28 11:47:30.944, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2024.08.28 11:47:30.945, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.28 11:47:30.947, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2024.08.28 11:47:30.947, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2024.08.28 11:47:30.947, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2024.08.28 11:47:31.945, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2024.08.28 11:47:31.945, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2024.08.28 11:47:31.945, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2024.08.28 11:47:31.946, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2024.08.28 11:47:31.946, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2024.08.28 11:47:31.947, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2024.08.28 11:47:32.028, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdatabg  (1), 2024.08.28 11:47:32.031, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2024.08.28 11:47:32.034, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.28 11:47:32.114, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2024.08.28 11:47:32.612, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2024.08.28 11:47:32.612, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.28 11:56:09.055, SYS,  INFO,      108, License information, License changed
+
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+ui          = 1
+para        = 1
+event       = 1
+ios         = 2000000000
+ssi         = 0
+ctrl        = 2
+update      = 2
+
+
+WCCOAjavadrv (1), 2024.08.28 12:01:07.938, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:02:09.678, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:02:34.656, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:02:52.690, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:04:44.310, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:06:56.116, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:09:52.997, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 12:16:21.252, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 13:16:27.152, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 13:20:18.495, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:01:33.995, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:10:04.052, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:12:58.034, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:15:14.484, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:19:45.895, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:22:30.666, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:39:04.997, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.28 14:52:20.695, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19  platform Windows linked at Aug 28 2024 14:51:36
+WCCOAjavadrv (1), 2024.08.28 14:52:20.698, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAjavadrv (1), 2024.08.28 14:52:20.702, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCOAjavadrv (1), 2024.08.28 14:52:40.707, SYS,  INFO,        0, , Connection from TestStandS2I expired
+WCCOAjavadrv (1), 2024.08.28 14:52:40.707, IMPL, FATAL,       5, Connection not possible, WCCILdata
+WCCOAjavadrv (1), 2024.08.28 14:52:40.709, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.29 04:00:00.006, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2024.08.29 04:00:00.007, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2024.08.29 04:00:00.007, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2024.08.29 04:00:00.007, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2024.08.29 04:00:00.008, SYS,  SEVERE,     39, Connection lost, (SYS: 0 Data -num 0 CONN: 1), exiting ...
+on closed
+WCCILdatabg  (1), 2024.08.29 04:00:00.009, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2024.08.29 04:00:00.009, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2024.08.29 04:00:00.109, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2024.08.29 04:00:00.110, PARAM,INFO,      113, Online-Backup of database, Entering backup mode, functionality will be restricted
+WCCILdata    (0), 2024.08.29 04:01:00.355, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2024.08.29 04:01:00.863, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdata    (0), 2024.08.29 04:01:00.886, PARAM,INFO,      113, Online-Backup of database, Leaving backup mode, now processing cached messages...
+WCCILdatabg  (1), 2024.08.29 04:01:00.949, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILdatabg  (1), 2024.08.29 04:01:00.952, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2024.08.29 04:01:00.956, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILdata    (0), 2024.08.29 04:01:01.033, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2024.08.29 04:01:01.529, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2024.08.29 04:01:01.529, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAjavadrv (1), 2024.08.29 12:04:52.499, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19  platform Windows linked at Aug 28 2024 14:51:36
+WCCOAjavadrv (1), 2024.08.29 12:04:52.501, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAjavadrv (1), 2024.08.29 12:04:52.505, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCOAjavadrv (1), 2024.08.29 12:05:12.519, SYS,  INFO,        0, , Connection from TestStandS2I expired
+WCCOAjavadrv (1), 2024.08.29 12:05:12.519, IMPL, FATAL,       5, Connection not possible, WCCILdata
+WCCOAjavadrv (1), 2024.08.29 12:05:12.521, SYS,  INFO,        2, Manager Stop
+WCCOAjavadrv (1), 2024.08.29 12:16:36.284, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19  platform Windows linked at Aug 28 2024 14:51:36
+WCCOAjavadrv (1), 2024.08.29 12:16:36.291, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAjavadrv (1), 2024.08.29 12:16:36.300, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCOAjavadrv (1), 2024.08.29 12:16:56.308, SYS,  INFO,        0, , Connection from TestStandS2I expired
+WCCOAjavadrv (1), 2024.08.29 12:16:56.311, IMPL, FATAL,       5, Connection not possible, WCCILdata
+WCCOAjavadrv (1), 2024.08.29 12:16:56.316, SYS,  INFO,        2, Manager Stop
+WCCOAjavadrv (1), 2024.08.29 12:17:20.822, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19  platform Windows linked at Aug 28 2024 14:51:36
+WCCOAjavadrv (1), 2024.08.29 12:17:20.825, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAjavadrv (1), 2024.08.29 12:17:20.830, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCOAjavadrv (1), 2024.08.29 12:17:40.834, SYS,  INFO,        0, , Connection from TestStandS2I expired
+WCCOAjavadrv (1), 2024.08.29 12:17:40.835, IMPL, FATAL,       5, Connection not possible, WCCILdata
+WCCOAjavadrv (1), 2024.08.29 12:17:40.836, SYS,  INFO,        2, Manager Stop
+WCCOAjavadrv (1), 2024.08.29 12:20:18.059, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.29 12:20:22.962, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.29 12:20:25.409, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.29 12:20:27.250, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.29 12:20:29.374, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.29 12:30:48.942, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAjavadrv (1), 2024.08.29 12:30:59.058, SYS,  SEVERE,     54, Unexpected state, OaLocaleImpl::cleanLanguageDefinitions, Clean not possible, project language definition table already finalized.
+WCCOAui      (1), 2024.08.29 13:11:05.197, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAui      (1), 2024.08.29 13:11:05.198, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2024.08.29 13:11:05.198, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.29 13:11:05.198, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.29 13:11:05.198, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.29 13:11:05.199, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2024.08.29 13:11:05.394, SYS,  INFO,        2, Manager Stop
+WCCILevent   (0), 2024.08.29 13:18:41.081, SYS,  INFO,      108, License information, License changed
+
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+ctrl        = 2
+update      = 2
+
+

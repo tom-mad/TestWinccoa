@@ -1,0 +1,89 @@
+WCCILevent   (0), 2024.08.27 14:52:38.637, SYS,  INFO,        1, Manager Start, PROJ, TestDones1, V 3.19 - 3.19 final platform Windows AMD64 linked at Dec  6 2022 12:14:51 (1fe6f411a4c)
+WCCILevent   (0), 2024.08.27 14:52:38.638, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCILevent   (0), 2024.08.27 14:52:38.677, SYS,  INFO,      108, License information, Using CodeMeter container 130-2083343716 (LOCAL)
+WCCILevent   (0), 2024.08.27 14:52:38.682, SYS,  INFO,      108, License information, 
+version     = 32000000
+sn          = "CodeMeter sn:130-2083343716"
+expire      = 2025.04.16;02:00:00,000 
+demoPeriod  = 30d
+event       = 1
+ios         = 2000000000
+ssi         = 0
+update      = 2
+
+
+WCCILevent   (0), 2024.08.27 14:52:38.682, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2024.08.27 14:52:38.684, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.688, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.ManNums:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.StartTimes:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.689, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.HostNames:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.692, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2024.08.27 14:52:38.715, SYS,  INFO,      169, Initialize 0 dp-functions
+WCCILevent   (0), 2024.08.27 14:52:38.715, SYS,  INFO,      168, Initialize 0 alerts
+WCCILevent   (0), 2024.08.27 14:52:38.715, PARAM,WARNING,     7, Datapoint does not exist, EvFixedCMLicenses, _Event.License.HW
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, UserTable, UserTable, _Users.UserId
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, ManagerTable, ManagerTable, _Managers.Auth.ManType
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpType:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.Dp:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpAuth:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpAlias:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, dpDpConnect, _Event.ReadLicense
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     8, Element does not exist, EventManager, doDpConnect, _Managers.Exit
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     8, Element does not exist, EventManager, doDpConnect, _Managers.Refresh
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.ExpirationCnt
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.RemainingTime
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.isRTILInvalid:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.isPVSSInvalid:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.cmLicenseInvalid:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.shield:_original.._value
+WCCILevent   (0), 2024.08.27 14:52:38.717, SYS,  WARNING,   108, License information, Eventmanager will shutdown after the demo period of 2592000 seconds
+WCCILevent   (0), 2024.08.27 14:52:38.868, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:39.018, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:39.239, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:39.330, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:39.628, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:39.727, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:44.008, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:44.112, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:44.131, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:44.251, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ TestStandS2I (::1)
+WCCILevent   (0), 2024.08.27 14:52:44.269, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:44.310, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:44.317, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2024.08.27 14:52:44.417, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2024.08.27 14:52:44.417, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILevent   (0), 2024.08.27 14:52:44.417, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2024.08.27 14:52:44.429, SYS,  INFO,        2, Manager Stop
